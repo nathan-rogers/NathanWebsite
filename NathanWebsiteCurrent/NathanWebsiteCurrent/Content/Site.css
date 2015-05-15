@@ -1,0 +1,279 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+header {
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+
+.tab-content {
+    height: 500px;
+}
+
+#tabs-tab1 {
+    padding: 10px 10px 10px 10px;
+    background: #479F89;
+    color: #FFFFFF;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    height: 100%;
+}
+
+#tabs-tab2 {
+    padding: 10px 10px 10px 10px;
+    background: #3E87F4;
+    color: #FFFFFF;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    height: 100%;
+    margin-bottom: 200px;
+}
+
+#tabs-tab3 {
+    padding: 10px 10px 10px 10px;
+    background: #f44d3c;
+    color: #FFFFFF;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    height: 550px;
+    width: 1140px;
+    margin-bottom: 200px;
+}
+
+#tabs-tab4 {
+    padding: 10px 10px 10px 10px;
+    background: #FF7519;
+    color: #FFFFFF;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    height: 550px;
+    width: 1140px;
+    margin-bottom: 200px;
+}
+
+html {
+    background-color: #121414 !important;
+    color: #FFFFFF;
+    height: 100%;
+}
+
+body {
+    background-color: #121414 !important;
+    color: #FFFFFF;
+    height: 100%;
+    margin-bottom: 40px;
+}
+
+footer {
+    margin-top: 600px;
+}
+
+.tab-colorizer ul {
+    color: #5B388F;
+    border: none;
+}
+
+.tab-colorizer li {
+    border: none;
+}
+
+    .tab-colorizer li a:active {
+        padding-left: 40px;
+        padding-right: 40px;
+        background: #479F89;
+    }
+
+#tabno1 a {
+    -webkit-transition: padding 2s;
+}
+
+#tabno2 a {
+    -webkit-transition: padding 2s;
+}
+
+#tabno3 a {
+    -webkit-transition: padding 2s;
+}
+
+#tabno3 a {
+    -webkit-transition: padding 2s;
+}
+
+.tab-colorizer #tabno1 a:hover {
+    transition-duration: 1.5s;
+    padding-left: 40px;
+    padding-right: 40px;
+    color: #FFFFFF;
+    background: #479F89;
+    border: none;
+}
+
+.tab-colorizer #tabno2 a:hover {
+    transition-duration: 1.5s;
+    padding-left: 40px;
+    padding-right: 40px;
+    color: #FFFFFF;
+    background: #3E87F4;
+    border: none;
+}
+
+.tab-colorizer #tabno3 a:hover {
+    transition-duration: 1.5s;
+    padding-left: 40px;
+    padding-right: 40px;
+    color: #FFFFFF;
+    background: #f44d3c;
+    border: none;
+}
+
+.tab-colorizer #tabno4 a:hover {
+    transition-duration: 1.5s;
+    padding-left: 40px;
+    padding-right: 40px;
+    color: #FFFFFF;
+    background: #FF7519;
+    border: none;
+}
+
+.form-group textarea {
+    height: 135px;
+    width: 600px;
+}
+
+.tab-colorizer span {
+    font-size: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.jumbotron {
+    margin: 20px 0 10px 0;
+    /*--sandeepsarma photography https://www.facebook.com/sandeepsharmaphotographer*/
+    filter: alpha(opacity = 50);
+    background-image: url('dark_city_by_sandeepsarma-d5snrrq.jpg');
+
+    padding: 15px 200px 30px 0;
+    border: none;
+    color: #FFFFFF;
+    width: 1000px;
+}
+
+    .jumbotron p {
+        background:#000000;
+        opacity:.6;
+        font-size: 40px;
+        font-weight: 400;
+    }
+
+    .jumbotron i {
+        color: #f44d3c;
+        font-weight: 900;
+    }
+    .jumbotron img{
+        opacity:.6;
+        background: #000000;
+       padding-left: 80px;
+    }
+
+.learn-button {
+    margin-right: 568px;
+    margin-top: 0;
+}
+
+    .learn-button a {
+        background-color: #f44d3c;
+        color: #FFFFFF;
+        border: none;
+        font-size: 22px;
+        font-weight: 900;
+        padding: 20px 70px 20px 70px;
+    }
+
+        .learn-button a:hover {
+            background-color: #C13333;
+            color: #FFFFFF;
+        }
+
+.resume-button {
+    margin-right: 0px;
+    margin-top: 0px;
+}
+
+    .resume-button a {
+        background-color: #f44d3c;
+        color: #FFFFFF;
+        border: none;
+        font-size: 22px;
+        font-weight: 900;
+        padding: 10px 0px 10px 0px;
+    }
+
+        .resume-button a:hover {
+            background-color: #C13333;
+            color: #FFFFFF;
+        }
+
+.about-text {
+    font-size: 20px;
+}
+
+.work-button a {
+    background-color: #2e5ca1;
+    color: #FFFFFF;
+    border: none;
+    font-size: 22px;
+    font-weight: 900;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+    .work-button a:hover {
+        background-color: #123E82;
+        color: #FFFFFF;
+    }
+
+.work-img img {
+    height: 300px;
+}
+
+.dd2 img {
+    height: 175px;
+    padding-top: 10px;
+    padding-left: 65px;
+}
+
+.section-title {
+    padding-left: 55px;
+}
+
+.navbar-trans {
+    margin-left: 285px;
+    padding-left: 50px;
+    border: none;
+}
