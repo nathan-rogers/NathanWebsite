@@ -172,23 +172,37 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\10624660_10204614723666117_2995430980429405394_n.jpg" />
+    <Content Include="Content\10985437_588598121281707_1357256010594145677_n.jpg" />
+    <Content Include="Content\11143520_588597771281742_7928361013227514350_n.jpg" />
+    <Content Include="Content\11209723_586829944791858_2695437823095395349_n.jpg" />
     <Content Include="Content\5a2318b4-06a6-4329-a224-584215a7c7fd_zps7148c7f4.jpg" />
     <Content Include="Content\894533dbf10dbffcf8d1fc438a83ab43_zpsac837b38.jpg" />
     <Content Include="Content\blueprints.png" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\cigar-and-cognac.jpg" />
     <Content Include="Content\dark_city_by_sandeepsarma-d5snrrq.jpg" />
     <Content Include="Content\Don%27tDie.png" />
     <Content Include="Content\Don%27tDie2.png" />
     <Content Include="Content\Gameplay.png" />
     <Content Include="Content\highscoreSR.png" />
     <Content Include="Content\Media\blueprints.png" />
+    <Content Include="Content\Media\bootstrap.png" />
+    <Content Include="Content\Media\download.jpg" />
     <Content Include="Content\Media\facebook-128.png" />
     <Content Include="Content\Media\github-128.png" />
+    <Content Include="Content\Media\html5css3badges.png" />
+    <Content Include="Content\Media\HTML5_logo_and_wordmark.svg.png" />
+    <Content Include="Content\Media\Logo.png" />
+    <Content Include="Content\Media\microsoft-sql-server-2008-logo-EF404ACF5E-seeklogo.com.gif" />
+    <Content Include="Content\Media\newdotnetlogo_2.png" />
     <Content Include="Content\Media\twitter-128.png" />
+    <Content Include="Content\Media\vslogo2012.png" />
     <Content Include="Content\NowZad.jpg" />
     <Content Include="Content\overview.png" />
     <Content Include="Content\quotes-407.jpg" />
+    <Content Include="Content\Screenshot 2015-05-16 21.50.09.png" />
+    <Content Include="Content\Screenshot 2015-05-16 22.09.49.png" />
     <Content Include="Content\spacerace.png" />
     <Content Include="Content\srgameplay.png" />
     <Content Include="Content\styles.css" />
@@ -224,7 +238,6 @@
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Home\About.cshtml" />
-    <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
     <Content Include="Views\Account\_ExternalLoginsListPartial.cshtml" />

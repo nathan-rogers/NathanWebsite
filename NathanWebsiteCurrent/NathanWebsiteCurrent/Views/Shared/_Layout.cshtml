@@ -26,12 +26,21 @@
             <div class="navbar-collapse collapse">
                 <div class="pull-right">
                     <ul class="nav navbar-nav">
+                        
 
                         <li><a href="@Url.Action("Index", "Home")">Home</a></li>
 
                         <li><a href="@Url.Action("About", "Home")">About Me</a></li>
                         <li><a href="@Url.Action("Work", "Home")">My Work</a></li>
+                        <li>
+                            <div class="media-icons">
 
+                                <a href="https://www.linkedin.com/in/nathandrogers" target="_blank"><img src="~/Content/Media/blueprints.png" /></a>
+                                <a href="https://www.facebook.com/nathan.rogers.39982" target="_blank"><img src="~/Content/Media/facebook-128.png" /></a>
+                                <a href="https://github.com/nathan-rogers" target="_blank"><img src="~/Content/Media/github-128.png" /></a>
+                                <a href="https://twitter.com/nathandrogers" target="_blank"><img src="~/Content/Media/twitter-128.png" /></a>
+                            </div>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -40,12 +49,20 @@
     <div class="container body-content">
         @RenderBody()
         <footer>
-
-            <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
-            <p class="media-icon"><a href="https://www.linkedin.com/in/nathandrogers" class="btn btn-block btn-default">Learn about me <span></span></a></p>
+            <ul>
+                <li><a href="@Url.Action("Resume","Home")">Resume</a></li>
+                <li><a href="@Url.Action("About","Home")">Contact</a></li>
+            </ul>
             
-LinkedIn
-</a>
+            <div class="media-icons">
+
+                <a href="https://www.linkedin.com/in/nathandrogers" target="_blank"><img src="~/Content/Media/blueprints.png" /></a>
+                <a href="https://www.facebook.com/nathan.rogers.39982" target="_blank"><img src="~/Content/Media/facebook-128.png" /></a>
+                <a href="https://github.com/nathan-rogers" target="_blank"><img src="~/Content/Media/github-128.png" /></a>
+                <a href="https://twitter.com/nathandrogers" target="_blank"><img src="~/Content/Media/twitter-128.png" /></a>
+                <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
+            </div>
+
         </footer>
     </div>
 

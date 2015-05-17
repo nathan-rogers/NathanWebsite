@@ -2,7 +2,7 @@
 <h1 class="section-title">About</h1>
 
 <div class="tabpanel styled-tabs uniform-height" role="tabpanel">
-    
+
     <nav class="pull-right">
         <div class="tab-colorizer">
             <ul class="nav nav-tabs" role="tablist" text-hidden-xs="true">
@@ -16,7 +16,7 @@
 
         <!-- Tab panes -->
         <div class="tab-content">
-            
+
             <div role="tabpanel" class="tab-pane fade in active" id="tabs-tab1">
                 <br>
                 <div class="container">
@@ -59,17 +59,18 @@
                         </div>
                         <div class="col-md-6 column">
 
-
-                            <p class="about-text">
+                            <div class="about-text">
+                                <p>
                                     I have spent years cultivating an insatiable desire to learn, by continually placing myself in situations where I am forced to adjust and acquire new skills. As an Army veteran, I tested my mental and physical limits while mastering new satellite communication technologies and serving my country. After leaving the service, I was introduced to programming, and haven't looked back.  For me, Coding is the fusion of creativity and technology, as it utilizes my past experiences and satisfies my desire to push myself and learn new things. I am ready to take on this next challenge in my life and grow as a developer while contributing my skills as part of a dynamic team.
-                            </p>
-                            <p class="resume-button"><a  onclick="myFunction()" class="btn btn-block btn-default">Resume <span class="glyphicon glyphicon-play"></span></a></p>
+                                </p>
+                            </div>
+                            <p class="resume-button"><a onclick="myFunction()" class="btn btn-block btn-default">Resume <span class="glyphicon glyphicon-play"></span></a></p>
                             <script>
-function myFunction() {
-    window.open(href="@Url.Action("NathanRogersResume.pdf", "Content")");
-}
-</script>
-                            
+                                function myFunction() {
+                                    window.open(href = "@Url.Action("Resume", "Home")");
+                                }
+                            </script>
+
                         </div>
                     </div>
                 </div>
@@ -78,44 +79,28 @@ function myFunction() {
 
             <div role="tabpanel" class="tab-pane fade" id="tabs-tab2">
                 <br>
-              
+
                 <div class="col-md-6 column">
-                    <div class="carousel slide" id="carousel-739798">
-                        <ol class="carousel-indicators">
-                            <li class="active" data-slide-to="0" data-target="#carousel-739798">
-                            </li>
-                            <li data-slide-to="1" data-target="#carousel-739798">
-                        </ol>
-                        <div class="carousel-inner">
+                    <div class="interest-images">
+                        <img src="~/Content/11143520_588597771281742_7928361013227514350_n.jpg" />
+                        <img src="~/Content/11209723_586829944791858_2695437823095395349_n.jpg" />
+                        <img src="~/Content/10985437_588598121281707_1357256010594145677_n.jpg" />
 
-
-                            <div class="item active">
-                                <img src="~/Content/NowZad.jpg" />
-                                <div class="carousel-caption">
-                                    <h4>
-                                        Camp Now Zad, Afghanistan, 2011
-                                    </h4>
-                                    <p>
-                                        Completion of mission to Camp Now Zad, Afghanistan in 2011 with Navy Lt. Meyer.
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <img class="about-img" src="~/Content/894533dbf10dbffcf8d1fc438a83ab43_zpsac837b38.jpg" />
-                                <div class="carousel-caption">
-                                    <h4>
-                                        Seeking Challenges
-                                    </h4>
-                                    <p>
-                                        Top of the climb at North Cheyenne Mountain Rd. in Colorado Springs. 3 mile ascent of over 1500 ft. Hardest ride of my life.
-                                    </p>
-                                </div>
-                            </div>
-
-                        </div> <a class="left carousel-control" href="#carousel-739798" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a> <a class="right carousel-control" href="#carousel-739798" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+                        <img src="~/Content/cigar-and-cognac.jpg" />
                     </div>
                 </div>
-                <p class="about-text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis. Duis dictum lorem metus, vitae dapibus risus imperdiet nec. Suspendisse molestie lorem odio.</pclass>
+                <div class="about-text">
+                    <h4>Cyclist</h4>
+                    <p>A lover of life, I live an active lifestyle. I love cycling, and am currently training for my first century ride (100 miles). In the last 3 years I have ridden over 3,000 miles to date, and enjoy longer rides. </p>
+                    <h4>Go Player</h4>
+                    <p>
+                        I also study the ancient and wonderful game of Go in my spare time. Go is a simple game, but is beautifully deep.
+                    </p>
+                    <h4>Cigar Aficonado</h4>
+                    <p>
+                        When I'm out with friends, I enjoy a good cigar, and consider myself an Aficionado in training. I spent 2 years in the cigar industry, learning about the art and craftsmanship it takes to create cigars.
+                    </p>
+                </div>
             </div>
 
             <div role="tabpanel" class="tab-pane fade" id="tabs-tab3">
@@ -132,10 +117,23 @@ function myFunction() {
                                         <img src="~/Content/Don'tDie2.png" />
                                     </div>
                                 </div>
-                                <div class="work-text">
+                                <div class="about-text">
                                     <div class="col-md-6 column">
-                                        <p class="about-text">Nunc accumsan sapien eu tortor fringilla, et condimentum metus pellentesque. Maecenas rhoncus tortor nec mi congue aliquet. Integer eu turpis scelerisque, iaculis magna non, tempor sem. Quisque consectetur nisi eu felis euismod, sit amet faucibus justo molestie. Ut pretium sapien dui, id facilisis metus interdum pharetra.</pclass>
+                                        <p class="about-text">My goal is to continually grow and expand my skills as a programmer. I have taken part in the SeedPaths coding boot camp, and the IGDA Colorado Denver Kinect Hackathon. Starting with Java, I have expanded my skillset to include C#, Javascript, Unreal Engine 4, SQL, and more. Click below to see a few excerpts of my work so far.</p>
+                                        <div class="qualifications">
+                                            <img src="~/Content/Media/vslogo2012.png">
+                                            <img src="~/Content/Media/dotnet.png" />
+                                            <img src="~/Content/Media/Logo.png" />
+                                            <img src="~/Content/Media/0310.SQLServerLogo.png-550x0.png" />
+                                            <img src="~/Content/Media/Icons8-Windows-8-Programming-Java-Coffee-Cup-Logo.ico" />
+                                            <img src="~/Content/Media/logo-800x188.png"><img src="~/Content/Media/bootstrap.png" />
+                                            <img src="~/Content/Media/html5css3badges.png" />
+                                           
+                                            <img src="~/Content/Media/Photoshop-Logo-XL-1024x1013.png" />
+                                            <img src="~/Content/Media/ue4.png" />
+                                        </div>
                                         <p class="work-button"><a href="@Url.Action("Work", "Home")" class="btn btn-block btn-default">My Work Examples <span class="glyphicon glyphicon-play"></span></a></p>
+
                                     </div>
                                 </div>
                             </div>
@@ -144,18 +142,20 @@ function myFunction() {
                 </div>
 
             </div>
-            <div role="tabpanel" class="tab-pane fade" id="tabs-tab4">
+
+            <div role="tabpanel" class="tab-pane fade"  id="tabs-tab4">
                 <br>
                 <article id="contact" class="section-wrapper clearfix" data-custom-background-img="assets/images/other_images/bg4.jpg">
                     <div class="content-wrapper clearfix">
 
-                        <h1 class="section-title">Get in touch!</h1>
-
+                        <h1 class="contact-me">Get in touch!</h1>
+                        <div class="about-text">
+                            <p>Feel free to contact me at any of the methods provided, or simply leave me a comment!</p>
+                        </div>
                         <!-- CONTACT DETAILS -->
                         <div class="contact-details col-sm-5 col-md-3">
-                            <p>123A,<br />Molestie Lorem Avenue,<br />Aliquam<br />AAA0010</p>
-                            <p>Tel: (+20) 21 301 524</p>
-                            <p><a href="mailto:info@loremipsum.com">info@loremipsum.com</a></p>
+                            <p>Tel: (719)-229-0865</p>
+                            <p class="email-address"><a href="nathan.rogers.d@gmail.com">nathan.rogers.d@gmail.com</a></p>
                         </div>
                         <!-- END: CONTACT DETAILS -->
                         <!-- CONTACT FORM -->
@@ -195,7 +195,6 @@ function myFunction() {
 
                     </div><!-- .content-wrapper -->
                 </article><!-- .section-wrapper -->
-                <p class="about-text">Nunc accumsan sapien eu tortor fringilla, et condimentum metus pellentesque. Maecenas rhoncus tortor nec mi congue aliquet. Integer eu turpis scelerisque, iaculis magna non, tempor sem. Quisque consectetur nisi eu felis euismod, sit amet faucibus justo molestie. Ut pretium sapien dui, id facilisis metus interdum pharetra.</pclass>
             </div>
 
 
